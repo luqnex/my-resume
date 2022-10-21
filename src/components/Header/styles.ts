@@ -29,13 +29,3 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 `;
-
-export const Button = styled.button`
-  background: none;
-  border: 1px solid ${(props) => props.theme.primary};
-
-  color: ${(props) => props.theme.primary};
-
-  padding: 0.8rem 1rem;
-  border-radius: 0.3rem;
-`;
