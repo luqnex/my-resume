@@ -5,9 +5,14 @@ type ImageCustomProps = {
 };
 
 export const CardCustom = styled.div`
-  width: 100%;
-  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+  min-width: 350px;
   border-radius: 8px;
+
+  pointer-events: none;
+
+  margin: 1rem;
+
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 `;
 
 export const ImageCustom = styled.div<ImageCustomProps>`

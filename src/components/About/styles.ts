@@ -17,6 +17,10 @@ export const Container = styled.section`
   margin: 2rem;
 
   gap: 3rem;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 
 export const ContainerAbout = styled.section`
@@ -27,6 +31,10 @@ export const ContainerAbout = styled.section`
   flex-direction: column;
 
   gap: 1.5rem;
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 export const Title = styled.h1`
@@ -44,4 +52,17 @@ export const ContainerImage = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .image {
+    width: 100%;
+
+    @media (max-width: 600px) {
+      width: 80%;
+    }
+  }
 `;

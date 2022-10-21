@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const CardCustom = styled.div`
-  width: 33.33%;
-  max-width: 20rem;
+  min-width: 250px;
 
   background-color: ${(props) => props.theme.bgShade};
   border-bottom: 3px solid transparent;

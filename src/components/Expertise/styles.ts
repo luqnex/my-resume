@@ -11,12 +11,17 @@ export const Container = styled.div`
   width: 100%;
   max-width: 1250px;
   margin: 2rem;
+  overflow-y: auto;
 `;
 
 export const ContainerCard = styled.section`
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `;
 
 export const Title = styled.h1`

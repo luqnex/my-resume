@@ -29,7 +29,7 @@ export const About = () => {
           </Description>
         </ContainerAbout>
         <ContainerImage>
-          <img src={MyPhoto.src} alt="Lucas Costa" style={{ width: "100%" }} />
+          <img src={MyPhoto.src} alt="Lucas Costa" className="image" />
         </ContainerImage>
       </Container>
     </AboutCustom>
