@@ -8,8 +8,8 @@ export const Header = () => {
   return (
     <HeaderContainer>
       <Container>
-        {/* <Image src={logo} alt="Logo" /> */}
-
+        {/* <Image src={logo} alt="Logo" />
+         */}
         <List>
           <ListItem>Home</ListItem>
           <ListItem>Portifolio</ListItem>
