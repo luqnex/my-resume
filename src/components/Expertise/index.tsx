@@ -6,7 +6,7 @@ import { Container, ContainerCard, ExpertiseCustom, Title } from "./styles";
 
 export const Expertise = () => {
   return (
-    <ExpertiseCustom>
+    <ExpertiseCustom id="expertise">
       <Container>
         <Title>Experiencia</Title>
 

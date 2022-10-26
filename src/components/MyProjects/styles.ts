@@ -17,6 +17,37 @@ export const Container = styled.div`
   overflow-y: auto;
 `;
 
+export const ContainerTitle = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+`;
+
+export const Title = styled.h1`
+  font-size: 2rem;
+`;
+
+export const Button = styled.button`
+  color: #ffff;
+  background-color: ${(props) => props.theme.dribble};
+  border: 1px solid ${(props) => props.theme.dribble};
+  border-radius: 0.4rem;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+
+  margin-right: 1rem;
+
+  &:hover {
+    color: ${(props) => props.theme.dribble};
+    background-color: #ffff;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+  }
+`;
+
 export const ContainerCard = styled.div`
   width: 100%;
   display: flex;
@@ -26,10 +57,4 @@ export const ContainerCard = styled.div`
   &::-webkit-scrollbar {
     display: none;
   }
-`;
-
-export const Title = styled.h1`
-  font-size: 2rem;
-  margin-bottom: 3rem;
-  margin-left: 1rem;
 `;

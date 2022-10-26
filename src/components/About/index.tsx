@@ -10,11 +10,10 @@ import {
 } from "./styles";
 
 import MyPhoto from "../../../public/assets/myPhoto.png";
-import Image from "next/image";
 
 export const About = () => {
   return (
-    <AboutCustom>
+    <AboutCustom id="about">
       <Container>
         <ContainerAbout>
           <Title>Sobre mim</Title>

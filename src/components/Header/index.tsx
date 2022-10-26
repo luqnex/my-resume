@@ -1,20 +1,20 @@
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
+import { ListCustom } from "../ListCustom";
 
-// import logo from "../../../public/assets/logo.png";
+import Logo from "../../../public/assets/Logo.png";
 
-import { Container, HeaderContainer, List, ListItem } from "./styles";
+import { useIsMobile } from "../../hooks/useIsMobile";
+
+import { Container, HeaderContainer } from "./styles";
 
 export const Header = () => {
+  const [isMobile] = useIsMobile();
+
   return (
-    <HeaderContainer>
+    <HeaderContainer id="home">
       <Container>
-        {/* <Image src={logo} alt="Logo" />
-         */}
-        <List>
-          <ListItem>Home</ListItem>
-          <ListItem>Portifolio</ListItem>
-          <ListItem>Sobre</ListItem>
-        </List>
+        <img src={Logo.src} alt="Lucas Costa" />
+        {!isMobile && <ListCustom />}
       </Container>
     </HeaderContainer>
   );

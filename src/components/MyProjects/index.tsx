@@ -1,12 +1,24 @@
 import { CardProject } from "../CardProject";
 
-import { Container, ContainerCard, MyProjectsCustom, Title } from "./styles";
+import {
+  Button,
+  Container,
+  ContainerCard,
+  ContainerTitle,
+  MyProjectsCustom,
+  Title,
+} from "./styles";
 
 export const MyProjects = () => {
   return (
-    <MyProjectsCustom>
+    <MyProjectsCustom id="projects">
       <Container>
-        <Title>Meus projetos</Title>
+        <ContainerTitle>
+          <Title>Meus projetos</Title>
+          <a href="https://github.com/luqnex" target="_blank" rel="noreferrer">
+            <Button>Github</Button>
+          </a>
+        </ContainerTitle>
 
         <ContainerCard>
           <CardProject

@@ -11,16 +11,6 @@ export const HeaderContainer = styled.header`
   padding: 0 2rem;
 `;
 
-export const List = styled.ul`
-  display: flex;
-  gap: 2rem;
-  padding: 2rem;
-`;
-
-export const ListItem = styled.li`
-  list-style: none;
-`;
-
 export const Container = styled.div`
   width: 100%;
   max-width: 1250px;
@@ -28,4 +18,8 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  img {
+    width: 10rem;
+  }
 `;
