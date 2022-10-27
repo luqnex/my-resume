@@ -4,6 +4,8 @@ type themeProps = {
   bgShade: string;
   dribble: string;
   body: string;
+  black: string;
+  white: string;
 };
 
 export const theme: themeProps = {
@@ -12,4 +14,6 @@ export const theme: themeProps = {
   bgShade: "#F5FCFF",
   dribble: "#E62872",
   body: "#1C1E53",
+  black: "#000",
+  white: "#FFF",
 };
