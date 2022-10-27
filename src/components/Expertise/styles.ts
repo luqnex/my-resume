@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { motion } from "framer-motion";
+
 export const ExpertiseCustom = styled.section`
   height: 60vh;
   display: flex;
@@ -7,7 +9,7 @@ export const ExpertiseCustom = styled.section`
   align-items: center;
 `;
 
-export const Container = styled.div`
+export const Container = styled(motion.div)`
   width: 100%;
   max-width: 1250px;
   margin-left: 1rem;

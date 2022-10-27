@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { motion } from "framer-motion";
+
 export const MyProjectsCustom = styled.div`
   width: 100%;
   height: 90vh;
@@ -8,7 +10,7 @@ export const MyProjectsCustom = styled.div`
   align-items: center;
 `;
 
-export const Container = styled.div`
+export const Container = styled(motion.div)`
   width: 100%;
   max-width: 1250px;
   display: flex;

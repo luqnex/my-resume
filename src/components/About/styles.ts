@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutCustom = styled.div`
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;

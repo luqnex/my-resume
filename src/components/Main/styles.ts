@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { motion } from "framer-motion";
+
 export const MainCustom = styled.main`
   width: 100%;
   height: calc(100vh - 4rem);
@@ -11,7 +13,7 @@ export const MainCustom = styled.main`
   background: ${(props) => props.theme.bgShade};
 `;
 
-export const Container = styled.div`
+export const Container = styled(motion.div)`
   display: flex;
   flex-direction: column;
   margin: 0 1rem;
