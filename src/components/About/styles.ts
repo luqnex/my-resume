@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 export const AboutCustom = styled.div`
-  height: 70vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 700px) {
+    height: 100%;
+  }
 `;
 
 export const Container = styled.section`
@@ -14,7 +18,7 @@ export const Container = styled.section`
 
   display: flex;
   justify-content: space-between;
-  margin: 2rem;
+  margin: 1rem;
 
   gap: 3rem;
 

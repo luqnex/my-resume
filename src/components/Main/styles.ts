@@ -14,7 +14,7 @@ export const MainCustom = styled.main`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 0 2rem;
+  margin: 0 1rem;
 
   h4 {
     font-size: 1rem;

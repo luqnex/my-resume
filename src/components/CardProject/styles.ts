@@ -5,7 +5,7 @@ type ImageCustomProps = {
 };
 
 export const CardCustom = styled.div`
-  min-width: 350px;
+  min-width: 290px;
   border-radius: 8px;
 
   pointer-events: none;
@@ -40,4 +40,14 @@ export const Description = styled.p`
   font-size: 1rem;
   line-height: 1.5;
   color: ${(props) => props.theme.body};
+`;
+
+export const Link = styled.a`
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #000;
+  margin-top: 1rem;
 `;

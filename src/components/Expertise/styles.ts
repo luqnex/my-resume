@@ -10,7 +10,7 @@ export const ExpertiseCustom = styled.section`
 export const Container = styled.div`
   width: 100%;
   max-width: 1250px;
-  margin: 2rem;
+  margin-left: 1rem;
   overflow-y: auto;
 `;
 
@@ -21,6 +21,10 @@ export const ContainerCard = styled.section`
   overflow-y: auto;
   &::-webkit-scrollbar {
     display: none;
+  }
+
+  &:last-child {
+    padding-right: 1rem;
   }
 `;
 

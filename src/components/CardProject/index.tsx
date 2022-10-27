@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import { FiArrowUpRight } from "react-icons/fi";
+
 import Image from "../../../public/assets/Image.png";
 
 import {
@@ -6,6 +8,7 @@ import {
   ContainerDescription,
   Description,
   ImageCustom,
+  Link,
   Title,
 } from "./styles";
 
@@ -22,7 +25,9 @@ export const CardProject = ({ link, title, description }: CardProjectProps) => {
       <ContainerDescription>
         <Title>{title}</Title>
         <Description>{description}</Description>
-        <a href={link}>Ver no Github</a>
+        <Link href={link}>
+          Ver no Github <FiArrowUpRight size={24} />
+        </Link>
       </ContainerDescription>
     </CardCustom>
   );

@@ -17,7 +17,7 @@ export const ContentFooter = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 2rem;
+  margin: 1rem;
 `;
 
 export const ContainerIcons = styled.div`

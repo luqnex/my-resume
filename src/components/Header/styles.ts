@@ -8,7 +8,7 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: center;
 
-  padding: 0 2rem;
+  padding: 0 1rem;
 `;
 
 export const Container = styled.div`
