@@ -34,13 +34,10 @@ export const ListCustom = () => {
           <ListItem>Home</ListItem>
         </Link>
         <Link href="#expertise">
-          <ListItem>Experiencia</ListItem>
+          <ListItem>Experiência</ListItem>
         </Link>
         <Link href="#about">
           <ListItem>Sobre</ListItem>
-        </Link>
-        <Link href="#projects">
-          <ListItem>Projetos</ListItem>
         </Link>
       </List>
 
@@ -58,9 +55,6 @@ export const ListCustom = () => {
             </Link>
             <Link href="#about" onClick={handleOpen}>
               <ListItem>Sobre</ListItem>
-            </Link>
-            <Link href="#projects" onClick={handleOpen}>
-              <ListItem>Projetos</ListItem>
             </Link>
           </ListMobile>
           <BackDrop />

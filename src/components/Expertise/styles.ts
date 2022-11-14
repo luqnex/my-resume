@@ -7,26 +7,27 @@ export const ExpertiseCustom = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 700px) {
+    height: 100%;
+    margin: 5rem 0;
+  }
 `;
 
 export const Container = styled(motion.div)`
   width: 100%;
   max-width: 1250px;
-  margin-left: 1rem;
-  overflow-y: auto;
+  margin: 1rem;
 `;
 
 export const ContainerCard = styled.section`
+  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  overflow-y: auto;
-  &::-webkit-scrollbar {
-    display: none;
-  }
 
-  &:last-child {
-    padding-right: 1rem;
+  @media (max-width: 700px) {
+    flex-direction: column;
   }
 `;
 

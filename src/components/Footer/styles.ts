@@ -20,6 +20,12 @@ export const ContentFooter = styled.div`
   margin: 1rem;
 `;
 
+export const ContainerMobileNone = styled.div`
+  @media (max-width: 699px) {
+    display: none;
+  }
+`;
+
 export const ContainerIcons = styled.div`
   width: 100%;
   display: flex;

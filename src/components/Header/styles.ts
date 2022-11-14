@@ -8,7 +8,12 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: center;
 
+  position: fixed;
+  background: ${(props) => props.theme.white};
+
   padding: 0 1rem;
+
+  z-index: 999;
 `;
 
 export const Container = styled.div`
@@ -20,6 +25,7 @@ export const Container = styled.div`
   justify-content: space-between;
 
   img {
-    width: 10rem;
+    width: 200px;
+    height: auto;
   }
 `;

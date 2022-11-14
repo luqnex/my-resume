@@ -29,15 +29,19 @@ export const About = () => {
         }}
       >
         <ContainerAbout>
-          <Title>Sobre mim</Title>
+          <Title>Sobre</Title>
           <Description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            varius faucibus massa sollicitudin amet augue. Nibh metus a semper
-            purus mauris duis. Lorem eu neque, tristique quis duis. Nibh
-            scelerisque ac adipiscing velit non nulla in amet pellentesque. Sit
-            turpis pretium eget maecenas. Vestibulum dolor mattis consectetur
-            eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a,
-            euismod risus r.
+            Meu nome é Lucas Costa, sou graduado em engenharia de software pela
+            faculdade EAD unicesumar e atuo como desenvolvedor front-end. Estou
+            sempre em busca de aprimorar meus conhecimentos e agregar um maior
+            valor as pessoas por meio da tecnologia!
+            <br />
+            <br />
+            Por isso decidi iniciar meu empreendimento e poder ajudar a todos
+            que necessitam entrar no mundo digital através de sites ou
+            e-commerce, utilizando das melhores tecnologias para a criação de
+            sites: HTML, CSS, JavaScript, ReactJs, Typescript e e-commerce com a
+            plataforma Nuvemshop.
           </Description>
         </ContainerAbout>
         <ContainerImage>

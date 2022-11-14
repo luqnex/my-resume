@@ -17,9 +17,12 @@ export const Link = styled.a`
 
 export const ListItem = styled.li`
   list-style: none;
+  font-weight: 500;
 
   &:hover {
     cursor: pointer;
+    color: ${(props) => props.theme.primary};
+    transition: all 0.3s;
   }
 
   @media (max-width: 699px) {
@@ -42,12 +45,14 @@ export const ButtonMenu = styled.button`
 
 export const ContainerListMobile = styled.div`
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: absolute;
   top: 4rem;
   left: 0;
 
   background-color: rgba(30, 30, 30, 70%);
+
+  z-index: 999;
 `;
 
 export const ListMobile = styled.ul`

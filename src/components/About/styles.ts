@@ -47,6 +47,7 @@ export const Title = styled.h1`
 
 export const Description = styled.p`
   line-height: 1.5;
+  color: ${(props) => props.theme.body};
 `;
 
 export const ContainerImage = styled.section`

@@ -2,31 +2,28 @@
 
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
-import Logo from "../../../public/assets/Logo.png";
-
-import { useIsMobile } from "../../hooks/useIsMobile";
+import Logo from "../../../public/assets/Logo_lucas.dev.png";
 
 import { ListCustom } from "../ListCustom";
 
 import {
   Container,
   ContainerIcons,
+  ContainerMobileNone,
   ContentFooter,
   Icons,
   Text,
 } from "./styles";
 
 export const Footer = () => {
-  const [isMobile] = useIsMobile();
-
-  console.log(isMobile);
-
   return (
     <Container>
       <ContentFooter>
         <ContainerIcons>
           <img src={Logo.src} alt="Lucas Costa" />
-          {!isMobile && <ListCustom />}
+          <ContainerMobileNone>
+            <ListCustom />
+          </ContainerMobileNone>
           <Icons>
             <AiFillGithub size={24} />
             <AiFillLinkedin size={24} />

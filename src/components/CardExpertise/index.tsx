@@ -1,21 +1,24 @@
-import Image, { StaticImageData } from "next/image";
+/* eslint-disable @next/next/no-img-element */
+import { StaticImageData } from "next/image";
 
 import { CardCustom, Description, Title } from "./styles";
 
 type CardExpertiseProps = {
+  url: string;
   title: string;
   description: string;
   image: StaticImageData;
 };
 
 export const CardExpertise = ({
+  url,
   image,
   title,
   description,
 }: CardExpertiseProps) => {
   return (
-    <CardCustom>
-      <Image src={image} alt={title} width={"70%"} height={"70%"} />
+    <CardCustom href={url} target="_blank">
+      <img src={image.src} alt={title} />
       <Title>{title}</Title>
       <Description>{description}</Description>
     </CardCustom>

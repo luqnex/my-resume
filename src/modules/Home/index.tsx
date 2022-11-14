@@ -14,7 +14,7 @@ export const Home = () => {
       <Main />
       <Expertise />
       <About />
-      <MyProjects />
+      {/* <MyProjects /> */}
       <Footer />
     </Container>
   );

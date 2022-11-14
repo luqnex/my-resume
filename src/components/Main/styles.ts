@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export const MainCustom = styled.main`
   width: 100%;
-  height: calc(100vh - 4rem);
+  height: 100vh;
 
   display: flex;
   justify-content: center;
@@ -14,6 +14,8 @@ export const MainCustom = styled.main`
 `;
 
 export const Container = styled(motion.div)`
+  width: 100%;
+  max-width: 1250px;
   display: flex;
   flex-direction: column;
   margin: 0 1rem;
@@ -26,11 +28,8 @@ export const Container = styled(motion.div)`
   }
 
   h1 {
-    font-size: 3.5rem;
-
-    span {
-      color: ${(props) => props.theme.primary};
-    }
+    font-size: 3rem;
+    text-align: start;
   }
 
   p {
@@ -40,6 +39,10 @@ export const Container = styled(motion.div)`
     color: ${(props) => props.theme.body};
 
     margin-top: 0.5rem;
+
+    span {
+      color: ${(props) => props.theme.primary};
+    }
   }
 `;
 

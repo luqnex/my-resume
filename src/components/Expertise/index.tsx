@@ -2,7 +2,9 @@ import { useEffect, useRef } from "react";
 
 import { useInView } from "framer-motion";
 
-import LogoReact from "../../../public/assets/react.png";
+import LogoReact from "../../../public/assets/React.png";
+import LogoJs from "../../../public/assets/Js.png";
+import LogoNuvemShop from "../../../public/assets/NuvemShop.png";
 
 import { CardExpertise } from "../CardExpertise";
 
@@ -22,31 +24,28 @@ export const Expertise = () => {
           transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s",
         }}
       >
-        <Title>Experiencia</Title>
+        <Title>Experiência</Title>
 
         <ContainerCard>
           <CardExpertise
             image={LogoReact}
             title="React Js"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex impedit! Mollitia et quod necessitatibus aliquam quidem."
+            url="https://pt-br.reactjs.org/"
+            description="Uma biblioteca JavaScript para criar interfaces de usuário. Crie views simples para cada estado na sua aplicação, e o React irá atualizar e renderizar de forma eficiente apenas os componentes necessários na medida em que os dados mudam"
           />
 
           <CardExpertise
-            image={LogoReact}
-            title="React Js"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex impedit! Mollitia et quod necessitatibus aliquam quidem."
+            image={LogoJs}
+            title="JavaScript"
+            url="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+            description="JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web."
           />
 
           <CardExpertise
-            image={LogoReact}
-            title="React Js"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex impedit! Mollitia et quod necessitatibus aliquam quidem."
-          />
-
-          <CardExpertise
-            image={LogoReact}
-            title="React Js"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex impedit! Mollitia et quod necessitatibus aliquam quidem."
+            image={LogoNuvemShop}
+            title="Nuvemshop"
+            url="https://www.nuvemshop.com.br/"
+            description="A Nuvemshop é a plataforma de e-commerce líder na América Latina. Com mais de 100 mil lojas ativas, ela integra produtos, pagamentos e envios com diferentes canais de vendas, como Facebook, Instagram, marketplaces e lojas físicas."
           />
         </ContainerCard>
       </Container>
