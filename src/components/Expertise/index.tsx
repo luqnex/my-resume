@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 
 import { useInView } from "framer-motion";
 
-import LogoReact from "../../../public/assets/react.png";
+import LogoReact from "../../../public/assets/reactLogo.png";
 import LogoJs from "../../../public/assets/js.png";
 import LogoNuvemShop from "../../../public/assets/nuvemShop.png";
 
