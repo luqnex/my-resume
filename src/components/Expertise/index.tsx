@@ -2,9 +2,9 @@ import { useEffect, useRef } from "react";
 
 import { useInView } from "framer-motion";
 
-import LogoReact from "../../../public/assets/React.png";
-import LogoJs from "../../../public/assets/Js.png";
-import LogoNuvemShop from "../../../public/assets/NuvemShop.png";
+import LogoReact from "../../../public/assets/react.png";
+import LogoJs from "../../../public/assets/js.png";
+import LogoNuvemShop from "../../../public/assets/nuvemShop.png";
 
 import { CardExpertise } from "../CardExpertise";
 
