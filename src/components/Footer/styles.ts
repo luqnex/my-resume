@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   width: 100%;
-  height: 12rem;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: ${(props) => props.theme.bgShade};
   margin-top: 3rem;
+  padding: 3rem;
 `;
 
 export const ContentFooter = styled.div`
@@ -17,7 +18,6 @@ export const ContentFooter = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 1rem;
 `;
 
 export const ContainerMobileNone = styled.div`
@@ -40,6 +40,11 @@ export const ContainerIcons = styled.div`
 export const Icons = styled.div`
   display: flex;
   gap: 1rem;
+
+  a {
+    color: ${(props) => props.theme.black};
+    text-decoration: none;
+  }
 `;
 
 export const Text = styled.p`

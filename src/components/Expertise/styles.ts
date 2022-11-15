@@ -3,15 +3,13 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const ExpertiseCustom = styled.section`
-  height: 60vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 5rem 0;
 
-  @media (max-width: 700px) {
-    height: 100%;
-    margin: 5rem 0;
-  }
+
 `;
 
 export const Container = styled(motion.div)`
@@ -33,5 +31,5 @@ export const ContainerCard = styled.section`
 
 export const Title = styled.h1`
   font-size: 2rem;
-  margin: 1rem 0 3rem 0;
+  margin: 0 0 3rem 0;
 `;

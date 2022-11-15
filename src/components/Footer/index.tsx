@@ -25,9 +25,27 @@ export const Footer = () => {
             <ListCustom />
           </ContainerMobileNone>
           <Icons>
-            <AiFillGithub size={24} />
-            <AiFillLinkedin size={24} />
-            <AiFillInstagram size={24} />
+            <a
+              href="https://github.com/luqnex"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillGithub size={24} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lucascostaljc/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillLinkedin size={24} />
+            </a>
+            <a
+              href="https://www.instagram.com/lucass.ljc/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillInstagram size={24} />
+            </a>
           </Icons>
         </ContainerIcons>
         <Text>
